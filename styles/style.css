@@ -4,6 +4,7 @@ body{
 h1{
   font-size: 50px;
 }
+
 .padding{
   padding-bottom: 200px;
 }
@@ -21,4 +22,40 @@ h1{
   font-weight: 700;
   padding: 10px 40px;
   border-radius: 20px;
+}
+
+/* product style */
+
+
+
+
+
+
+.container{
+  background-color: #FFFFFF;
+  width: 870px;
+  padding: 30px;
+  border-radius: 5px;
+  margin-top: 21px;
+}
+
+.product .product-banner img{
+  width: 300px;
+  height: 250px;
+}
+
+.product-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fa-star{
+  font-size: 12px;
+}
+.fa-star.filled{
+  color: #ffc936;
+}
+.fa-star.empty{
+  color: #c6c6c6;
 }
