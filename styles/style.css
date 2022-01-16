@@ -4,6 +4,9 @@ body{
 h1{
   font-size: 50px;
 }
+.padding{
+  padding-bottom: 200px;
+}
 .flexible-container{
   display:flex;
 }
